@@ -41,3 +41,60 @@ Argument of type 'number' is not assignable to parameter of type 'string'.
 ```
 
 - This way type casting is checked properly, to avoid bugs.
+
+**Default Parameter**
+
+```ts
+const loginUser = (userName: string, emailId: string, password: string, isLoggedIn: boolean = false) => {
+    console.log(userName, password, emailId, isLoggedIn)
+}
+
+loginUser("Shivanandan", "shiva@123", "s@s.com")
+/*
+* The above statement will raise an error if isLoggedIn is not given a default value in the parameter.
+*/
+```
+
+### **Return Type Annotations**
+- Can also add return type annotations.
+- Appears after the parameter list.
+- When return type annotation is used:
+    - auto infers data type to the variable when called with it `(Type Inference)`.
+
+    ```ts
+    function helloWorld (): string {
+        return "Hello, World!"
+    }
+
+    let greet = helloWorld()
+    /*
+    * Auto infers greet variable to string data type.
+    */
+    ```
+    - does not allow the function to return value with another data type `(Type Casting)`.
+    
+    ```ts
+    function isValid (): boolean {
+        return "Hello, World!"
+        /*
+        * Error: Type 'string' is not assignable to type 'boolean'.
+        */
+    }
+    ```
+
+    - arises an error when there conflict in function return type and variable type.
+
+    ```ts
+    function isPrimeNumber(num: number): boolean {
+        for(let i = 2; i * i <= num; i++) {
+            if (number % i !== 0) return false 
+        }
+        return true
+    }
+
+    const randomVar: string = isPrimeNumber(20)
+    /*
+    * The above statement will arise an error.
+    * Error: Type 'boolean' is not assignable to type 'string'.
+    */
+    ```
