@@ -1,6 +1,6 @@
-## **Object Types**
+## **Object Datatype**
 
-### Object types in parameters
+### Object datatype in parameters
 
 ```ts
 function userInfo({username: string, password: string, isActive: boolean}) {
@@ -14,7 +14,7 @@ userInfo({username: "Shivanandan D N", password: "Shiva@123", isActive: false})
 - The type part of each property is also optional.
 - Not specified, it will be assumed to be `any`.
 
-### Object types while returning
+### Object datatype while returning
 
 ```ts
 function returnUserObj(): {username: string, isLoggledIn: boolean} {
