@@ -82,7 +82,7 @@ loginUser("Shivanandan", "shiva@123", "s@s.com")
     }
     ```
 
-    - arises an error when there conflict in function return type and variable type.
+    - arises an error when there is conflict in function's return type and variable type.
 
     ```ts
     function isPrimeNumber(num: number): boolean {
@@ -98,3 +98,40 @@ loginUser("Shivanandan", "shiva@123", "s@s.com")
     * Error: Type 'boolean' is not assignable to type 'string'.
     */
     ```
+
+#### **Functions which returns Promises**
+
+- to annotate the return type which returns a promise, use the `Promise` type.
+
+```ts
+async function getFavouriteNumber(): Promise<number> {
+    return 5
+}
+```
+
+### Anonymous Function
+- The parameter type for the anonymous function is automatically inferred.
+
+```ts
+const names = ["Earth", "Venus", "Pluto"]
+
+names.forEach((planet: string) => {
+    console.log(planet)
+})
+
+/*
+* In the above anonymous function, the string data type declaration is not necessary. 
+* It will be automatically inferred from the array<string>
+*/
+```
+
+
+- A good practice to mention the return type in the anonymous function.
+
+```ts
+const names = ["Earth", "Venus", "Pluto"]
+
+names.forEach((index, planet): string => {
+    return `Planet ${index}: ${planet}`
+})
+```
