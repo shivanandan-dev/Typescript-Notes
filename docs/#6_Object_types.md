@@ -43,3 +43,5 @@ createUser(user)
 - But it is passed indirectly through a user object in its function call `createUser(user)`.
 - Still, this doesn't raise any error in the IDE.
 - This is considered a bad behaviour in objects.
+
+[Previous: Functions](/docs/%235_Functions.md) | [Next:]() | [Index Page](/README.md)

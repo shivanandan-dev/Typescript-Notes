@@ -36,3 +36,5 @@ console.log(age)
 let isLoggedIn: boolean = false
 console.log(isLoggedIn)
 ```
+
+[Previous: Introduction](/docs/%231_Introduction.md) | [Next: Type Inference](/docs/%233_Type_Inference.md) | [Index Page](/README.md)

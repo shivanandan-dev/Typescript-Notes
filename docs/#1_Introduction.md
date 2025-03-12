@@ -13,3 +13,4 @@
         - Not in the case of JS.
         - Analyze the code as we type.
 
+[Next: Primitive Types](/docs/%232_Primitive_Types.md) | [Index Page](/README.md)

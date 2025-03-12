@@ -10,3 +10,5 @@ pi = 'Shivanandan' // This will raise as an error in the IDE as type {number} is
 ```
 
 For ref: [Type annotation on Variables](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-annotations-on-variables)
+
+[Previous: Primitive Types](/docs/%232_Primitive_Types.md) | [Next: Any Type](/docs/%234_Any_Type.md) | [Index Page](/README.md)

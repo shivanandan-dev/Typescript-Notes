@@ -51,3 +51,5 @@ someValue = 99 // This will be raised as an error as the value assigned is in ty
 - Using `any` often defeats the purpose of using TS.
 - Run into fewer bugs, when the program is more typed.
 - Turning `noImplicitAny` flag will issue an error on variables whose type is implicitly inferred as `any`
+
+[Previous: Type Inference](/docs/%233_Type_Inference.md) | [Next: Functions](/docs/%235_Functions.md) | [Index Page](/README.md)
