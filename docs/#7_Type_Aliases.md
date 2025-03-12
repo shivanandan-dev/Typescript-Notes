@@ -24,4 +24,4 @@ function createUser(user: User){}
 createUser({name: "Shivanandan", email: "", isActive: false})
 ```
 
-[Previous: Object Types](/docs/%236_Object_Types.md) | [Next: ]() | [Index Page](/README.md)
+[Previous: Object Types](/docs/%236_Object_types.md) | [Next: ReadOnly](/docs/%238_Readonly.md) | [Index Page](/README.md)

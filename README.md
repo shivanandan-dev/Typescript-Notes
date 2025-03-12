@@ -33,3 +33,7 @@ Welcome! This repository contains notes and examples that I have compiled while 
     - [Object datatype while returning](docs/%236_Object_types.md#object-datatype-while-returning)
 
     - [Bad behaviour of objects](docs/%236_Object_types.md#bad-behaviour-of-objects)
+
+7. [Type Aliases](/docs/%237_Type_Aliases.md)
+
+8. [ReadOnly](/docs/%238_Readonly.md)
