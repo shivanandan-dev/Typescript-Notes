@@ -44,4 +44,4 @@ createUser(user)
 - Still, this doesn't raise any error in the IDE.
 - This is considered a bad behaviour in objects.
 
-[Previous: Functions](/docs/%235_Functions.md) | [Next:]() | [Index Page](/README.md)
+[Previous: Functions](/docs/%235_Functions.md) | [Next: Type Aliases](/docs/%237_Type_Aliases.md) | [Index Page](/README.md)
