@@ -32,4 +32,4 @@ newUser._id = "1234"
 */
 ```
 
-[Previous: Type Aliases](/docs/%237_Type_Aliases.md) | [Next: ]() | [Index Page](/README.md)
+[Previous: Type Aliases](/docs/%237_Type_Aliases.md) | [Next: Optional](/docs/%239_Optional.md) | [Index Page](/README.md)
