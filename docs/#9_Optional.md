@@ -31,4 +31,4 @@ displayEmployee(newEmployee)
 > **To remember**  
 > In Javascript, if you access a property that doesn't exist, you will get the value `undefined` rather than runtime error. Because of this , when you read from an optional property, you will have to check for `undefined` before using it.
 
-[Previous: Readonly](/docs/%238_Readonly.md) | [Next: Optional](/docs/%239_Optional.md) | [Index Page](/README.md)
+[Previous: Readonly](/docs/%238_Readonly.md) | [Next: Type Aliases](/docs/%237_Type_Aliases.md) | [Index Page](/README.md)
