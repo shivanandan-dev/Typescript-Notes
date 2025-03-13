@@ -29,4 +29,4 @@ const admin: AdminUser = {
 console.log(admin)
 ```
 
-[Previous: Optional](/docs/%239_Optional.md) | [Next: ]() | [Index Page](/README.md)
+[Previous: Optional](/docs/%239_Optional.md) | [Next: Arrays](/docs/%2311_Arrays.md) | [Index Page](/README.md)

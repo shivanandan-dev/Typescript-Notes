@@ -41,3 +41,7 @@ Welcome! This repository contains notes and examples that I have compiled while 
 9. [Optional](/docs/%239_Optional.md)
 
 10. [Type intersection](/docs/%2310_Type_Intersection)
+
+11. [Arrays](/docs/%2311_Arrays.md)
+
+    - [Array of Types](docs/%2311_Arrays.md#array-of-types)
