@@ -37,3 +37,7 @@ Welcome! This repository contains notes and examples that I have compiled while 
 7. [Type Aliases](/docs/%237_Type_Aliases.md)
 
 8. [ReadOnly](/docs/%238_Readonly.md)
+
+9. [Optional](/docs/%239_Optional.md)
+
+10. [Type intersection](/docs/%2310_Type_Intersection)
