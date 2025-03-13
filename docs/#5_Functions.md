@@ -136,4 +136,4 @@ names.forEach((index, planet): string => {
 })
 ```
 
-[Previous: Any type](/docs/%234_Any_Type.md) | [Next: Object Types](/docs/%236_Object_Types.md) | [Index Page](/README.md)
+[Previous: Any type](/docs/%234_Any_Type.md) | [Next: Object Types](/docs/%236_Object_types.md) | [Index Page](/README.md)
