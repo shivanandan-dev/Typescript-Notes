@@ -38,10 +38,14 @@ Welcome! This repository contains notes and examples that I have compiled while 
 
 8. [ReadOnly](/docs/%238_Readonly.md)
 
-9. [Optional](/docs/%239_Optional.md)
+9. [Optional `?`](/docs/%239_Optional.md)
 
-10. [Type intersection](/docs/%2310_Type_Intersection)
+10. [Type intersection `&`](/docs/%2310_Type_Intersection)
 
 11. [Arrays](/docs/%2311_Arrays.md)
 
     - [Array of Types](docs/%2311_Arrays.md#array-of-types)
+
+12. [Union types `|`](docs/%2312_Union.md#union-types)
+
+    - [Working with Union Types](docs/%2312_Union.md#working-with-union-types)

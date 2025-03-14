@@ -61,4 +61,4 @@ animeCharacters.push({
 })
 ```
 
-[Previous: Type Intersection](/docs/%2310_Type_Intersection) | [Next: ]() | [Index Page](/README.md)
+[Previous: Type Intersection](/docs/%2310_Type_Intersection) | [Next: Union](/docs/%2312_Union.md) | [Index Page](/README.md)
